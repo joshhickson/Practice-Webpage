@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+ }
+ 
+ 
+
+.mb  {
+   color: white;
+   font-weight: 300;
+   letter-spacing: 2px;
+   text-decoration: none;
+   background: #34abeb;
+   padding: 20px 5px;
+   display: inline-block;
+   width: 100%;
+   text-align: center;
+}
+
+.mb:hover {
+   background: rgba(52, 171, 235, 0.75);
+}
+
+.main {
+   max-width: 3840px;
+   margin: 0 auto;
+}
+
+.navigation ul {
+   border: 1px solid #34abeb;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+}
+
+.navigation li {
+   flex: 1;    
+}
+
+.navigation .user {
+   flex: 1;
+}
+
+
+
+@media all and (max-width: 1080px) {
+   .navigation li {
+      flex-basis: 100%;
+   }
+
+   .navigation .user {
+      flex-basis: 50%;
+   }
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+
+}
+ 
+h1 {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0.5;
+    margin-left: 15px;
+    font-size: 24pt;
+    font-style: inherit;
+}
+
+.description {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0.5;
+    margin-left: 15px;
+    font-size: 20pt
+
+}
+
+ .ip  {
+    color: black;
+    letter-spacing: 2px;
+    text-decoration: none;
+    background: #c0dded;
+    padding: 20px 5px;
+    display: inline-block;
+    max-width: 1000px;    
+    text-align: left;
+ }
+
+ .ip:hover {
+    background: rgba(52, 171, 235, 0.75);
+ }
+ 
+ .ipnbdiv {
+    max-width: 1200px;
+    margin: 0 auto;
+ }
+ 
+ .ipnbnav ul {
+    border: 1px solid #34abeb;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+ }
+ 
+ .ipnbnav li {
+    flex: 1;    
+ }
+ 
+ .ipnbnav .user {
+    flex: 1;
+ }
+ 
